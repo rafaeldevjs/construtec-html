@@ -34,6 +34,22 @@
       <div id="images" class="fade">
         <img class="img-obra" src="./src/obras/cena01.png" alt="" />
       </div>
+<script>
+
+let atualImg = 1;
+
+setInterval(()=>{
+  if(atualImg === 8){
+    atualImg = 1;
+  }else{
+     const imgObra = document.querySelector('.img-obra');
+    imgObra.src = `./src/obras/cena0${atualImg}.png`;
+    atualImg = atualImg + 1;
+  }
+
+  
+},3000
+</script>
     </article>
     <article>
       <h1>Contato</h1>
