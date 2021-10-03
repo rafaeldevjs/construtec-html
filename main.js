@@ -6,7 +6,7 @@ setInterval(()=>{
     atualImg = 1;
   }else{
      const imgObra = document.querySelector('.img-obra');
-    imgObra.src = `/src/obras/cena0${atualImg}.png`;
+    imgObra.src = `./src/obras/cena0${atualImg}.png`;
     atualImg = atualImg + 1;
   }
 
