@@ -1,0 +1,77 @@
+body, div, a, ul, li, article, img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    font-size: 15pt;
+    color: #787880;
+    background-color: #000;
+      list-style: none;
+      text-decoration: none;
+    
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header img{
+  min-width: 360px;
+  margin-left: 10px;
+}
+.container .sobre p{
+  margin-left: 20px;
+  margin-right: 10px;
+  text-justify: left;
+}
+.container .sobre ul li{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.container article h1{
+  margin: 20px;
+  font-family: sans-serif;
+}
+#images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-obra{
+  width: 90%;
+  border-radius: 5px;
+}
+.container article .list-contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #d3d3d3;
+}
+.container article .list-contact li a img{
+ display: block; 
+ margin: 20px auto;
+}
+
+.social{
+  width: 50px;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: #272829;
+  font-size: .75rem;
+}
+.footer a {
+  font-size: .9rem;
+}
+
+.fade{
+    animation-name: fade;
+  animation-duration: 3s;
+}
+@keyframes fade{
+  from {opacity: 0}
+  to{opacity: 1}
+}
